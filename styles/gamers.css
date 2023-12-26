@@ -42,5 +42,16 @@
     }
     /* media quarrey mobile devices */
     @media screen and (max-width:576px) {
-     
+     header{
+          padding: 30px;
+     }
+
+     nav, ul 
+     {
+          flex-direction: column;
+          gap: 30px;
+          padding: 30px;
+          
+         
+     }
     }
