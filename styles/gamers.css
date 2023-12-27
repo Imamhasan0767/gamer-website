@@ -247,10 +247,31 @@ nav li a {
      justify-content: space-between;
      align-items: center;
 }
-.career img{
-     Copy
-width: 1920px;
-height: 821px;
+
+.career img {
+     Copy width: 1920px;
+     height: 821px;
+}
+
+.games-img {
+     display: flex;
+}
+
+.div {
+     display: flex;
+     gap: 20px;
+     border-radius: 50px;
+     background: #FFF;
+     
+
+}
+
+.div-main {
+     margin-top: 150px;
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-gap: 50px;
+     padding:120px 280px 120px 250px;
 }
 
 /* media quarrey mobile devices */
@@ -269,8 +290,7 @@ height: 821px;
      .banner,
      .online-games-img,
      .install,
-     .career-coloum
-     {
+     .career-coloum {
           flex-direction: column;
           gap: 30px;
           padding: 30px;
@@ -296,8 +316,14 @@ height: 821px;
           padding-right: 30px;
      }
 
-     .career{
+     .career {
           margin: 0px;
+     }
+     .div-main{
+          grid-template-columns: repeat(3, 1fr);
+          padding:0px;
+          grid gap: 10px;
+          width: 100%;
      }
 
 }
