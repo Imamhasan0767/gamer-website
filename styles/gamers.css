@@ -305,7 +305,7 @@ footer {
 .div2 ul {
      display: flex;
      
-      
+     justify-content: center;
      gap: 60px;
      list-style: none;
      color: #FFF;
